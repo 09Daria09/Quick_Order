@@ -21,8 +21,8 @@ namespace Quick_Order
             IModel model = new Model();
             Presenter presenter = new Presenter(form, model);
 
-            this.MainWindow = form; // Устанавливаем главное окно
-            form.Show(); // Отображаем главное окно
+            this.MainWindow = form; 
+            form.Show(); 
         }
     }
 }
